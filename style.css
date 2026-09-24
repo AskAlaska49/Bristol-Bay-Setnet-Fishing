@@ -29,7 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 20px;
+    gap: 10px;
 }
 
 .contact-left-title {
@@ -133,7 +133,11 @@ nav {
     display: flex;
     padding-top: 32px;
 }
-
+.nav__container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
 .nav_row {
     display: flex;
     justify-content: space-between;
@@ -144,6 +148,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+.nav__bar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
 }
 
 .nav_logo {
@@ -180,6 +190,12 @@ img {
     margin: 0 auto;
 }
 
+figure {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 .about__img--wrapper {
     width: 100%;
     max-width: 400px;
@@ -207,6 +223,11 @@ img {
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 32px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
 }
 
 .section__description--about {
