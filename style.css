@@ -166,6 +166,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 
 }
 
@@ -223,7 +224,6 @@ img {
 }
 
 
-
 .footer__container {
     background-color: #02309b;
     color: #F2FFFF;
@@ -233,4 +233,10 @@ img {
 
 .white {
     color: #F2FFFF;
+}
+
+.AK49--img{
+    width: 100%;
+    max-width: 400px;
+   margin: 0 auto;
 }
