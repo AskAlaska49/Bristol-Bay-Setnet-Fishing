@@ -137,7 +137,22 @@ nav {
   display: flex;
   align-items: center;
   width: 100%;
+  background-color: #46c4c2;
+  color: #1e23ad;
+  padding: 32px 0;
+  text-align: center;
 }
+
+.section__description--logo--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+
 .nav_row {
     display: flex;
     justify-content: space-between;
