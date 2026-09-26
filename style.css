@@ -34,7 +34,7 @@ body {
 
 .contact-left-title {
     font-weight: 600;
-    color: #02309b;
+    color: #46c4c2;
     font-size: 40px;
     margin-bottom: 5px;
     background-color: #F2FFFF;
@@ -42,7 +42,7 @@ body {
 
 .contact-header {
     font-weight: 600;
-    color: #02309b;
+    color: #46c4c2;
     font-size: 40px;
     margin-bottom: 5px;
 }
@@ -50,7 +50,7 @@ body {
     border: none;
     width: 120px;
     height: 5px;
-    background-color: #02309b;
+    background-color: #46c4c2;
     border-radius: 10px;
     margin-bottom: 5px;
 }
@@ -59,7 +59,7 @@ body {
 .contact-input {
     width: 400px;
     height: 50px;
-    border: 2px solid #02309b;
+    border: 2px solid #46c4c2;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 500;
@@ -73,7 +73,7 @@ body {
      width: 400px;
     height: 150px;
     padding-left: 25px;
-    border: 2px solid #02309b;
+    border: 2px solid #46c4c2;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 500;
@@ -92,8 +92,8 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    background-color: #164cc9;
-    color: #F2FFFF;
+    background-color: #46c4c299;
+    color: #000606;
     border: none;
     padding: 15px 30px;
     font-size: 16px;
@@ -119,7 +119,7 @@ body {
     width: 100%;
 }
 .blue{
-    color: #02309b;
+    color: #46c4c2;
 }
 
 section {
@@ -154,6 +154,13 @@ nav {
   align-items: center;
   list-style: none;
   gap: 20px;
+}
+
+.nav__bar a {
+    text-decoration: none;
+    color: #01177D;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .nav_logo {
@@ -246,14 +253,14 @@ h2 {
 
 
 .footer__container {
-    background-color: #02309b;
-    color: #F2FFFF;
+    background-color: #46c4c2;
+    color: #1e23ad;
     padding: 32px 0;
     text-align: center;
 }
 
 .white {
-    color: #F2FFFF;
+    color: #01177D;
 }
 
 .AK49--img{
