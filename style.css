@@ -289,8 +289,6 @@ figure {
   gap: 20px;
 }
 
-
-
 .section__img--wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -307,7 +305,15 @@ figure {
     object-fit: cover;
 }
 
-
+.about-me__picture--mask {
+    width: 400px;
+    height: 410px;
+    border-radius: 60%;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
+    margin-bottom: 28px;
+    animation: animate-profile-picture 800ms 200ms backwards;
+}
 
 .home_description {
     display: flex;
