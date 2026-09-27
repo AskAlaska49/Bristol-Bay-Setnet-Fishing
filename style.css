@@ -414,4 +414,8 @@ h2 {
 .modal__links {
     list-style: none;
 }
+.modal__link {
+    text-decoration: none;
+    color: #1e23ad;
+}
 }
