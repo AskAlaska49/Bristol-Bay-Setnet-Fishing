@@ -11,7 +11,7 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <section>
+    <section id="landing">
         <nav>
             <div class="nav__container">
                 <div class="row">
@@ -24,29 +24,48 @@
                     
                     <ul>
                          <button type="button" class="nav__bar--button">
-                        <li><a href="#about">What is Setnetting?</a></li>
+                        <li><a href="#about" class="modal__link" onclick="closeMenu()">What is Setnetting?</a></li>
                           <button type="button" class="nav__bar--button">
-                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#team" class="modal__link" onclick="closeMenu()">Our Team</a></li>
                          <button type="button" class="nav__bar--button">
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#contact" class="modal__link" onclick="closeMenu()">Contact</a></li>
                          <button type="button" class="nav__bar--button">
-                        <li><a href="#setuplivingareas">Setup</a></li>
+                        <li><a href="#setuplivingareas" class="modal__link" onclick="closeMenu()">Setup</a></li>
                          <button type="button" class="nav__bar--button">
-                        <li><a href="#fishing">Fishing</a></li>
+                        <li><a href="#fishing" class="modal__link" onclick="closeMenu()">Fishing</a></li>
                          <button type="button" class="nav__bar--button">
-                        <li><a href="#cleanupbeachgear">Cleanup</a></li>
+                        <li><a href="#cleanupbeachgear" class="modal__link" onclick="closeMenu()">Cleanup</a></li>
                          <button type="button" class="nav__bar--button">
-                        <li><a href="#packingup">Packing Up</a></li>
+                        <li><a href="#packingup" class="modal__link" onclick="closeMenu()">Packing Up</a></li>
                          <button type="button" class="nav__bar--button">
-                        <li><a href="#itemstobring">Suggested Items</a></li>
+                        <li><a href="#itemstobring" class="modal__link" onclick="closeMenu()">Suggested Items</a></li>
                          <button type="button" class="nav__bar--button">
-                        <li><a href="#weprovide">We Provide </a></li>
+                        <li><a href="#weprovide" class="modal__link" onclick="closeMenu()">We Provide </a></li>
                          <button type="button" class="nav__bar--button">
-                        <li><a href="#otherinformation">Other Information</a></li>
+                        <li><a href="#otherinformation" class="modal__link" onclick="closeMenu()">Other Information</a></li>
                          <button type="button" class="nav__bar--button">
                      </button>
                     </ul>
-                    
+                     <button class="btn__menu" onclick="openMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="btn__menu--svg">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <div class="modal">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="light___StyledCloseIcon-lj69nl-14 fASujC">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
                 </nav>
             </div>
             </div>
@@ -329,12 +348,19 @@
             
     <figure>
             <img src="assets/fishrwebluewhitelogo.jpeg" class="logo--img" alt="Fish-R-We">
+           
              <img src="assets/fishrwebluewhitelogo-Picsart-BackgroundRemover.jpeg" class="logo--img" alt="Fish-R-We">
         </figure>
+          <div class="footer__arrow">
+            <a href="#landing" class="footer__my-link">
+         Top ⇧
+         </a> 
+         </div>
     <figure>
             <img src="assets/ak49logobr.png" class="AK49--img" alt="Created by AK49">
-            <p><span class="white">Copyright ©  Fish-R-We Bristol Bay Setnet Fishing Ask Alaska 49. All rights reserved.</span></p>
+            <p><span class="white">Copyright ©  Fish-R-We Bristol Bay Setnet Fishing AskAlaska49. All rights reserved.</span></p>
         </figure>
+        
          </div>
     </div>
 </html>

@@ -194,6 +194,53 @@ nav {
     cursor: pointer;
 }
 
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 378px;
+    margin: 24px 16px;
+    padding: 32px;
+    background-color: #fff;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 8px;
+    z-index: 4;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(300%);
+    transition: all 300ms ease;
+}
+
+.modal__links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal__link {
+    color: #1a202c;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 8px 0;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+}
+.menu--open .modal {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.btn__menu--close {
+    position: fixed;
+    top: 24px;
+    right: 18px;
+}
+
 .nav_logo {
     display: flex;
     align-items: center;
@@ -306,6 +353,37 @@ h2 {
     margin: 0 auto;
 }
 
+
+
+.footer__arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.footer__my-link {
+    display: inline-block;
+    color: #f7fafc;
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+    text-decoration: none;
+}
+
+.footer__my-link:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 0;
+    background: #fff;
+    transition: width 300ms ease;
+}
+
+.footer__my-link:hover:after {
+    width: 100%;
+}
 
 
 @media (max-width: 768px) {
