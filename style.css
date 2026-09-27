@@ -289,15 +289,25 @@ figure {
   gap: 20px;
 }
 
+
+
 .section__img--wrapper {
-    display: flex; 
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; 
-    width: 100%; 
-    max-width: 400px; 
-    height: auto;
-    
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
+
+.section__img--wrapper img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+}
+
+
 
 .home_description {
     display: flex;
