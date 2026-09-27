@@ -289,10 +289,14 @@ figure {
   gap: 20px;
 }
 
-.about__img--wrapper {
-    width: 100%;
-    max-width: 400px;
-    margin-left: 32px;
+.section__img--wrapper {
+    display: flex; 
+    justify-content: center;
+    gap: 20px; 
+    width: 100%; 
+    max-width: 400px; 
+    height: auto;
+    
 }
 
 .home_description {
