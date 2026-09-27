@@ -159,11 +159,13 @@ nav {
     justify-content: space-between;
 }
 
-.nav__bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+.nav__bar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
 }
 
 
@@ -173,6 +175,10 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.btn__menu {
+  display: none;
 }
 
 .nav__bar a {
@@ -398,5 +404,13 @@ h2 {
     .section__description--about--para {
         margin-bottom: 16px;
     }
+.nav__bar ul {
+  display: none;
+}
+
+.btn__menu {
+  display: block;
+}
+    
 }
 
