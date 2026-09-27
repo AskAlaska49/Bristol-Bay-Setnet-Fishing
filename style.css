@@ -153,6 +153,7 @@ nav {
     margin: 0 auto;
 }
 
+
 .nav_row {
     display: flex;
     justify-content: space-between;
@@ -178,6 +179,21 @@ nav {
     font-size: 16px;
 }
 
+.nav__bar a:hover {
+    color: #f1f1f3;
+    transition: 0.3s ease-in-out;
+}
+
+.nav__bar--button {
+    background-color: #46c4c2;
+    color: #01177D;
+    border: 2px solid #01177D;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 .nav_logo {
     display: flex;
     align-items: center;
@@ -185,7 +201,6 @@ nav {
     padding-bottom: 4px;
     margin-right: 32px;
 }
-
 
 .logo {
     width: 100%;
@@ -247,6 +262,13 @@ figure {
     margin-bottom: 32px;
 }
 
+.subheader_line {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
 h2 {
   text-align: center;
   margin-top: 20px;
@@ -279,7 +301,21 @@ h2 {
 }
 
 .AK49--img{
-    width: 100%;
+    width: 50%;
     max-width: 400px;
-   margin: 0 auto;
+    margin: 0 auto;
 }
+
+
+
+@media (max-width: 768px) {
+    .section__description--about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section__description--about--para {
+        margin-bottom: 16px;
+    }
+}
+
