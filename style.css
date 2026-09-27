@@ -411,6 +411,7 @@ h2 {
 .btn__menu {
   display: block;
 }
-    
+.modal__links {
+    list-style: none;
 }
-
+}
