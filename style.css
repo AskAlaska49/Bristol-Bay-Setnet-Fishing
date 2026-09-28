@@ -67,6 +67,10 @@ body {
     padding: 12px;
 }
 
+.fish {
+    display: inline-block;
+    animation: animate-fish 500ms infinite ease-in-out;
+}
 
 
 .contact-textarea {
