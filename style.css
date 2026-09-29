@@ -72,7 +72,6 @@ body {
     animation: animate-fish 500ms infinite ease-in-out;
 }
 
-
 .contact-textarea {
      width: 400px;
     height: 150px;
@@ -169,15 +168,6 @@ nav {
   justify-content: center;
   align-items: center;
   list-style: none;
-  gap: 20px;
-}
-
-
-.nav__bar ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   gap: 20px;
 }
 
@@ -372,7 +362,7 @@ h2 {
 .footer__container {
     background-color: #46c4c2;
     color: #1e23ad;
-    padding: 32px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -381,7 +371,7 @@ h2 {
 }
 
 .AK49--img{
-    width: 50%;
+    width: 100%;
     max-width: 400px;
     margin: 0 auto;
 }
